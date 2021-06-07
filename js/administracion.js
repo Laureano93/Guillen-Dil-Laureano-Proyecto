@@ -1049,7 +1049,7 @@ function validarApellido2(apellido) {
 function validarPass(pass) {
 
   
-  if ((pass.value.length != 6) {
+  if (pass.value.length != 6) {
 
     pass.classList.remove("true-input");
     pass.classList.add("false-input");

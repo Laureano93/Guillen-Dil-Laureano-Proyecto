@@ -1048,10 +1048,8 @@ function validarApellido2(apellido) {
 
 function validarPass(pass) {
 
-  let caracteres = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{12}$/;
-
-
-  if (pass.value.length != 12 || caracteres.exec(pass.value) == null) {
+  
+  if ((pass.value.length != 6) {
 
     pass.classList.remove("true-input");
     pass.classList.add("false-input");
